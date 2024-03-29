@@ -1,30 +1,47 @@
-# React + TypeScript + Vite
+# Urbetrack React Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto desarrollado como prueba técnica para la comapañía Urbetrack.
 
-Currently, two official plugins are available:
+El mismo consiste en una biblioteca de imágenes provenientes de una api externa.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+La aplicación ofrece la posibilidad de ingresar con una cuenta de usuario y guardar imágenes como "favoritas".
 
-## Expanding the ESLint configuration
+Se utilizó un gestor de estado global para persistir las imágenes guardadas y la sesión de usuario en el LocalStorage del navegador.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Tecnologías principales utilizadas
 
-- Configure the top-level `parserOptions` property like this:
+- React.js
+- Vite
+- React Router V6
+- React Query
+- Zustand
+- Radix UI
+- Typescript
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Otras librerías utilizadas
+
+- Axios (https://axios-http.com/es/docs/intro)
+- React Lazy Loading Image Component (https://www.npmjs.com/package/react-lazy-load-image-component)
+- OpenSesame (https://github.com/jordan-sussman/open-sesame)
+
+## Instrucciones de instalación
+
+Clonar el repositorio:
+```bash
+git clone https://github.com/SuarezLDamian/react-challenge-urbetrack/
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Moverse a la ruta correspondiente al repositorio descargado:
+```bash
+cd react-challenge-urbetrack
+```
+
+Instalar dependencias:
+```bash
+npm install
+```
+
+Correr el proyecto:
+```bash
+npm run dev
+```
