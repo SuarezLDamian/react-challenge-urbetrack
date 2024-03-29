@@ -1,6 +1,6 @@
 # Urbetrack React Challenge
 
-Proyecto desarrollado como prueba técnica para la comapañía Urbetrack.
+Proyecto desarrollado como prueba técnica para la compañía Urbetrack.
 
 El mismo consiste en una biblioteca de imágenes provenientes de una api externa.
 
@@ -12,11 +12,11 @@ Se utilizó un gestor de estado global para persistir las imágenes guardadas y 
 
 - React.js
 - Vite
-- React Router V6
+- React Router v6
 - React Query
 - Zustand
 - Radix UI
-- Typescript
+- TypeScript
 
 ## Otras librerías utilizadas
 
